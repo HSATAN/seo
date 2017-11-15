@@ -20,5 +20,6 @@ import seo.views as seoview
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', seoview.serch)
+    url(r'^$', seoview.index),
+    url(r'^serch$', seoview.serch)
 ]
